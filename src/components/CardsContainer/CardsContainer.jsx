@@ -113,7 +113,7 @@ export const CardsContainer = ({searchedCountry, searchedResults, searched}) => 
               <label htmlFor='DES'>⬇️</label>
           
 
-              <button onClick={changeHandler} name="filterbyActivity">Act - de 4hrs</button>
+            
             
             </form>
 
