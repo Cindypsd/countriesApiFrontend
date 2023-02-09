@@ -10,6 +10,7 @@ export const Jumbotron = () => {
 
       <h1>Countries API</h1>
 
+      <div className={style.postitsBox}>
         <div className={style.postitContainer}>
           <div className={style.tapeDecor}></div>
           <div className={style.postitZero}>
@@ -38,6 +39,7 @@ export const Jumbotron = () => {
             <p><span>Search a country</span> by its name ↓</p>
           </div>
         </div>
+      </div>
 
 
     </div>

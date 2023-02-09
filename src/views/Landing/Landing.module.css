@@ -50,8 +50,47 @@
 }
 
 .containerLanding button:hover{
-  width: 205px;
-  height: 65px;
+  transform: scale(1.1);
   background-color: var(--green);
   cursor: pointer;
+}
+
+
+@media(max-width:640px){
+  .containerLanding{
+    flex-direction: column;
+    margin-top:20%;
+    }
+  
+    .containerLanding img{
+      width: 200px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .infoLanding{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+    .infoLanding h1{
+      width: 300px;
+      font-size: 30px;
+      margin: 0px;
+    }
+    
+    .infoLanding p{
+      width: 270px;
+      font-size: 18px;
+    }
+
+    .containerLanding button{
+      border-radius: 15px;
+      font-size: 15px;
+      width: 150px;
+      height: 35px;
+    }
+
 }

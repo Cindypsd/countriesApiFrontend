@@ -42,7 +42,11 @@
   height: 35px;
 }
 
-
+.postitsBox{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
 .postitOne, .postitTwo, .postitThree, .postitZero{
   display: flex;
@@ -84,3 +88,55 @@
   font-weight: bold;
 }
 
+
+@media(max-width:640px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0pc;
+    gap: 5px;
+  }
+  
+  .container h1{
+    margin: 0px;
+    font-size: 40px;
+  }
+  
+  .postitsBox{
+
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .postitContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tapeDecor{
+    align-self: center;
+    position: relative;
+    top: 5px;
+    background-color: #e0e0d9b7;
+    width: 40px;
+    height: 15px;
+  }
+  
+
+  .postitOne, .postitTwo, .postitThree, .postitZero{
+    width: 80px;
+    height: 80px;
+  }
+  
+  .container p{
+    font-size: 10px;
+  }
+  
+  .container span{
+    font-size: 11px;
+  }
+
+}
