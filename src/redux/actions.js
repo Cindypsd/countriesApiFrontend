@@ -10,7 +10,7 @@ export const GET_COUNTRY_BY_NAME = "GET_COUNTRY_BY_NAME"
 export const getCountries = () => {
   return async (dispatch) => {
     const DBdata = await axios.get(
-      "http://localhost:3001/countries"
+      "/countries"
     )
     const countries = DBdata.data;
     dispatch({type: GET_COUNTRIES, payload: countries})
@@ -20,7 +20,7 @@ export const getCountries = () => {
 export const getCountry = (id) => {
   return async (dispatch) => {
     const DBdata = await axios.get(
-      `http://localhost:3001/countries/${id}`
+      `/countries/${id}`
     )
     const country = DBdata.data;
     dispatch({type: GET_COUNTRY, payload: country})
@@ -30,7 +30,7 @@ export const getCountry = (id) => {
 export const getCountryByName = (name) => {
     return async (dispatch) => {
       const DBdata = await axios.get(
-        `http://localhost:3001/countries?name=${name}`
+        `/countries?name=${name}`
       )
       const country = DBdata.data
       dispatch({type: GET_COUNTRY_BY_NAME, payload: country})
