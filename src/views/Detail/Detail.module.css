@@ -257,15 +257,12 @@
     border-radius: 15px;
   }
   
-  
-  .buttonsContainer button:hover{
-    background-color: var(--yellow);
-  }
+ 
   
   .listActivities{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 10px;
     margin-top: 0px;
   }
   
@@ -273,6 +270,7 @@
     place-self: center;
     font-size: 14px;
   }
+
   .messageActivities span{
     font-weight: bold;
     font-size: 18px;
@@ -291,13 +289,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
-   
-  
-    background-color: rgba(248, 245, 245, 0.962);
-    box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
-    -webkit-box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
-    -moz-box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
+
    
     border-radius: 15px;
     width: 300px;
@@ -326,26 +318,5 @@
     padding-left: 15px;
   }
   
-  
-  .returnButton{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    
-    place-self: center;
-    height: 30px;
-    width: 150px;
-    margin: 20px;
-  
-    background-color: var(--green);
-    box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
-    -webkit-box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
-    -moz-box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
-    border: none;
-    border-radius: 10px;
-  }
-  
-  .returnButton:hover{
-    transform: scale(1.1);
-    background-color: var(--yellow);
-  }
+
 }
