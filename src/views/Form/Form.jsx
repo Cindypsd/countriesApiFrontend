@@ -197,12 +197,14 @@ export const Form = () => {
         
       
   
-          
-          
-          <p className={style.confirmButton} onClick={validateForm}>The information is OK</p>
-          {errors.formCompleted && <p className={style.errorText}>{errors.formCompleted}</p>}
+          <div className={style.buttonsForm}>
+            <p className={style.confirmButton} onClick={validateForm}>The information is OK ?</p>
+            {errors.formCompleted && <p className={style.errorText}>{errors.formCompleted}</p>}
 
-          <button type='submit' className={style.submitButton} disabled={formCompleted ? false:true}>Submit Activity</button>
+            <button type='submit' className={style.submitButton} disabled={formCompleted ? false:true}>Submit Activity</button>
+          </div>
+          
+          
         
         
         </form>

@@ -139,7 +139,7 @@
   width: 200px;
   margin-top: 20px;
 
-  background-color: var(--alert);
+  background-color: var(--text-input-field);
   box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
   -webkit-box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
   -moz-box-shadow: -3px 1px 7px -3px rgba(43,43,43,0.42);
@@ -187,33 +187,32 @@
     display: none;
   }
 
+  .form{
+    width: 290px;
+    padding: 40px;
+    margin: 0px;
+  
+  }
 
-.form{
-  width: 330px;
-  padding: 40px;
-  margin: 0px;
-}
 
 
+  .inputName input {
+    height: 20px;
+    width: 240px;
+    padding: 6px;
+    font-size: 14px;
+  }
 
-.inputName input {
-  height: 20px;
-  width: 280px;
-  padding: 6px;
-  font-size: 14px;
-}
+  .inputCountry select {
+    height: 30px;
+    width: 230px;
+    font-size: 14px;
+  }
 
-.inputCountry select {
-  height: 30px;
-  width: 270px;
-  font-size: 14px;
-  background-color: var(--text-input-field);
-}
-
-.inputCountry{
-  display: flex;
-  width: 400px;
-}
+  .inputCountry{
+    display: flex;
+    width: 400px;
+  }
 
 .selectedContainer{
   display: flex;
@@ -224,22 +223,31 @@
 .inputDuration input{
   font-size: 14px ;
   height: 20px;
-  width: 30px;
+  width: 40px;
 }
 
 .inputLevel input , .inputSeason input{
   width: 16px;
   height: 18px;
-  margin: 13px;
+  margin: 8px;
 }
 
 .inputLevel label , .inputSeason label{
   font-size: 14px;
 }
+
+.buttonsForm{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
  
 .errorText{
+  background-color: #92E3A9;
+  width: 230px;
   font-size: 10px;
   color: rgb(205, 13, 13);
+  margin-left: 0px;
 }
 
 .errorSelectText{
@@ -248,10 +256,8 @@
 
 .confirmButton{
   font-size: 14px;
-  
   place-self: center;
   padding: 10px;
-  width: 150px;
   margin-top: 10px;
 }
 

@@ -185,7 +185,7 @@
   }
   
   .arrowsPagination:hover{
-    transform: scale(1.1);
+    transform: scale(1);
   }
   
   .pageNumber{
@@ -223,7 +223,7 @@
   .filterBar select{
     color: black;
     font-size: 14px;
-    background-color: #F7F7F7 ;
+    background-color: #e4e3e3 ;
     border:none;
     height: 25px;
     border-radius: 15px;
@@ -235,7 +235,11 @@
 
 
 
-@media(max-width:640px){  
+@media(max-width:640px){ 
+  .pageNumber{
+    display:none;
+  }
+
   .filterBar form{
     display: flex;
     flex-direction: column;
