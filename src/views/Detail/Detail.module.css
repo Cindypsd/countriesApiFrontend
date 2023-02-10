@@ -318,5 +318,13 @@
     padding-left: 15px;
   }
   
+  .returnButton{
+  
+    font-size: 12px;
+ 
+    width: 160px;
+    margin: 20px;
+
+  }
 
 }
