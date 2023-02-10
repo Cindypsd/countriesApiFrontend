@@ -54,7 +54,7 @@
 }
 
 
-@media(max-width:640px){
+@media(max-width:840px){
   .container{
     width: 180px;
     margin-bottom: 10px;
