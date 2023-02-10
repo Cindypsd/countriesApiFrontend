@@ -11,7 +11,6 @@
 
 .container{
   width: 300px;
-
 }
 
 .container img{
@@ -56,31 +55,30 @@
 
 @media(max-width:840px){
   .container{
-    width: 180px;
-    margin-bottom: 10px;
+    width: 200px;
+    margin-top: 5px;
   }
   
   .container img{
-    width: 180px;
-    height: 140px;
+    width: 170px;
+    height: 110px;
+    object-fit: cover; 
   }
   
 
   .container h2{
-    font-size: 20px;
-    margin: 5px;
+    margin: 1px;
+    font-size: 18px;
   }
   
+  
+  
+  .container p{
+   font-size: 12px;
+  }
+  
+  .container span{
+    font-size: 14px;
+  }
 }
 
-@media(max-width:440px){
-  .container{
-    width: 140px;
-    margin-bottom: 10px;
-  }
-  
-  .container img{
-    width: 140px;
-    height: 100px;
-  }
-}

@@ -165,11 +165,12 @@
 
   .containerCards{
     display:grid;
-    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: 1fr 1fr;
     place-content: center;
-    gap: 4px;
-    width: 90%;
+    gap: 1px;
+    margin: 20px;
   }
+
 
   .pagination{
     display: flex;
@@ -235,25 +236,21 @@
 
 
 @media(max-width:640px){  
+  .filterBar form{
+    display: flex;
+    flex-direction: column;
+  }
+
   .filterBar label{
-    font-size: 10px;
+    font-size: 14px;
   }
   
   .filterBar select{
-    font-size: 12px;
-    height: 18px;
+    font-size: 14px;
+    height: 28px;
+    padding: 5px;
     border-radius: 15px;
-    padding:2px;
+    margin-bottom: 5px;
   }
 }
 
-@media(max-width:490px){
-
-  .containerCards{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    place-content: center;
-    gap: 5px;
-    width: 90%;
-  }
-}
