@@ -181,3 +181,8 @@
   border-radius: 30px;
 }
 
+@media(max-width:640px){
+  .confirmForm{
+    display: none;
+  }
+}

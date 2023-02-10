@@ -87,6 +87,7 @@ export const CardsContainer = ({searchedCountry, searchedResults, searched}) => 
         !searched  ? 
           <div className={style.filterBar}>
             <form>
+            <div>
               <label htmlFor='continent'>Filter by Contintet </label>
               <select name="continent"  onChange={changeHandler}>
                 <option value="All" >All Continents</option>
@@ -97,8 +98,10 @@ export const CardsContainer = ({searchedCountry, searchedResults, searched}) => 
                 <option value="Europe">Europe</option>
                 <option value="Oceania">Oceania</option>
               </select>
+            </div>
 
 
+            <div>
               <label htmlFor='orderBy'>Order by </label>
               <select  name='orderBy' onChange={changeHandler}>
                 <option value="alphabetically">Alphabetically</option>
@@ -111,7 +114,7 @@ export const CardsContainer = ({searchedCountry, searchedResults, searched}) => 
 
               <input onChange={changeHandler} type="radio" id='DES' name='order' value='DES'/>
               <label htmlFor='DES'>⬇️</label>
-          
+            </div>
 
             
             
