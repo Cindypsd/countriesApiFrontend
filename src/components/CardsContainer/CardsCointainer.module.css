@@ -175,6 +175,7 @@
   }
   
   .pageNumber{
+    color: black;
     font-size: 10px;
     width: 18px;
     height: 15px;
@@ -183,6 +184,7 @@
   
 
   .pageNumberActive{
+    color: black;
     background-color: var(--yellow);
     transform: scale(1.05);
     font-size: 12px;
@@ -205,6 +207,7 @@
   
   
   .filterBar select{
+    color: black;
     font-size: 14px;
     background-color: #F7F7F7 ;
     border:none;

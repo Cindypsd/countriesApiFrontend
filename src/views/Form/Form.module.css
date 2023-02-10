@@ -185,4 +185,81 @@
   .confirmForm{
     display: none;
   }
+
+
+.form{
+  width: 350px;
+  padding: 40px;
+}
+
+
+.inputName input {
+  height: 20px;
+  width: 280px;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.inputCountry select {
+  height: 30px;
+  width: 270px;
+  font-size: 14px;
+  background-color: var(--text-input-field);
+}
+
+.inputCountry{
+  display: flex;
+  width: 400px;
+}
+
+.selectedContainer{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputDuration input{
+  font-size: 14px ;
+  height: 20px;
+  width: 30px;
+}
+
+.inputLevel input , .inputSeason input{
+  width: 16px;
+  height: 18px;
+  margin: 13px;
+}
+
+.inputLevel label , .inputSeason label{
+  font-size: 14px;
+}
+ 
+.errorText{
+  font-size: 10px;
+  color: rgb(205, 13, 13);
+}
+
+.errorSelectText{
+  font-size: 12px;
+}
+
+.confirmButton{
+  font-size: 14px;
+  
+  place-self: center;
+  padding: 10px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.submitButton{
+  font-size: 18px;
+  
+  
+  height: 40px;
+  width: 170px;
+  margin-top: 20px;
+}
+
+
 }
