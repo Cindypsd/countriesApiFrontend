@@ -239,11 +239,21 @@
     font-size: 10px;
   }
   
-  
   .filterBar select{
     font-size: 12px;
     height: 18px;
     border-radius: 15px;
     padding:2px;
+  }
+}
+
+@media(max-width:490px){
+
+  .containerCards{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    gap: 5px;
+    width: 90%;
   }
 }

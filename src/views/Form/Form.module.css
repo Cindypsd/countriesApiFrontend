@@ -54,6 +54,7 @@
   margin-bottom: 10px;
   font-size: 18px;
   background-color: var(--text-input-field);
+  color: black;
 }
 
 .inputCountry{
@@ -188,9 +189,11 @@
 
 
 .form{
-  width: 350px;
+  width: 330px;
   padding: 40px;
+  margin: 0px;
 }
+
 
 
 .inputName input {
@@ -254,12 +257,13 @@
 
 .submitButton{
   font-size: 18px;
-  
-  
   height: 40px;
   width: 170px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
+.returnButton{
+  font-size: 12px;
+}
 
 }
